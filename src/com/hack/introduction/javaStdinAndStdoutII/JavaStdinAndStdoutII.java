@@ -8,12 +8,11 @@ public class JavaStdinAndStdoutII {
         Scanner sc = new Scanner(System.in);
         int myInt = sc.nextInt();
         double myDouble = sc.nextDouble();
-        String myStr = sc.nextLine();
-        sc.close();
-        System.out.println("String: " + myStr);
+        sc.nextLine();
+        String myString = sc.nextLine();
+
+        System.out.println("String: " + myString);
         System.out.println("Double: " + myDouble);
         System.out.println("Int: " + myInt);
-
-
     }
 }
